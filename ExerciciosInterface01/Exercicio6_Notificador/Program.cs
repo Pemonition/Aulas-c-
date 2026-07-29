@@ -4,6 +4,8 @@ public static class Program
 {
     public static void Main()
     {
+        Testes.ExecutarTestes();
+
         List<INotificador> canais = new List<INotificador>
         {
             new NotificadorEmail(),
