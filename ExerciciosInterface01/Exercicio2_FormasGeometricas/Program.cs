@@ -4,6 +4,8 @@ public static class Program
 {
     public static void Main()
     {
+        Testes.ExecutarTestes();
+
         List<IFormaGeometrica> formas = new List<IFormaGeometrica>
         {
             new Retangulo(largura: 4, altura: 6),
