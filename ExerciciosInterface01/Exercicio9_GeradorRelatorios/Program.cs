@@ -4,6 +4,8 @@ public static class Program
 {
     public static void Main()
     {
+        Testes.ExecutarTestes();
+
         // Banco de dados + PDF
         GeradorRelatorio relatorio1 = new GeradorRelatorio(new FonteBancoDados(), new ExportadorPdf());
         relatorio1.GerarRelatorioDeVendas();
