@@ -4,6 +4,8 @@ public static class Program
 {
     public static void Main()
     {
+        Testes.ExecutarTestes();
+
         Dragao dragao = new Dragao();
         Mago mago = new Mago();
         Paladino paladino = new Paladino();
