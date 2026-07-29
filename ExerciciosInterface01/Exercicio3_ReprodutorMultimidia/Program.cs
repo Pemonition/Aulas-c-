@@ -4,6 +4,8 @@ public static class Program
 {
     public static void Main()
     {
+        Testes.ExecutarTestes();
+
         List<IReprodutorMultimidia> players = new List<IReprodutorMultimidia>
         {
             new PlayerMP3(),
