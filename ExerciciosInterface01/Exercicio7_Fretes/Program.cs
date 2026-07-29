@@ -4,6 +4,8 @@ public static class Program
 {
     public static void Main()
     {
+        Testes.ExecutarTestes();
+
         CarrinhoDeCompras carrinho = new CarrinhoDeCompras();
         carrinho.AdicionarItem(new ProdutoLivro("Clean Code", 89.90m));
         carrinho.AdicionarItem(new ProdutoEletronico("Notebook", 3500.00m));
