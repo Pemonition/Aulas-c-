@@ -4,6 +4,8 @@ public static class Program
 {
     public static void Main()
     {
+        Testes.ExecutarTestes();
+
         List<ITransporte> transportes = new List<ITransporte> { new Carro(), new Aviao(), new Trem() };
 
         foreach (ITransporte transporte in transportes)
