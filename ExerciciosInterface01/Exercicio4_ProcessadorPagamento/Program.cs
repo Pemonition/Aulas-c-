@@ -4,6 +4,8 @@ public static class Program
 {
     public static void Main()
     {
+        Testes.ExecutarTestes();
+
         List<IProcessadorPagamento> processadores = new List<IProcessadorPagamento>
         {
             new ProcessadorCartaoCredito(),
